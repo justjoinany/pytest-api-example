@@ -44,6 +44,9 @@ pets = [
     },
     {
         'id': 2, 'name': 'flippy', 'type': 'fish', 'status': 'available'
+    },
+    {
+        'id': 3, 'name': 'vernon', 'type': 'fish', 'status': 'sold'
     }
 ]
 
