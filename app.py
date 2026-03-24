@@ -35,6 +35,7 @@ api.add_namespace(pet_ns)
 api.add_namespace(store_ns)
 
 # In-memory data storage
+# I added id = 3 just to test the sold status
 pets = [
     {
         'id': 0, 'name': 'snowball', 'type': 'cat', 'status': 'available'

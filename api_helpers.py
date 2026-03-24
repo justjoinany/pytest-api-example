@@ -1,6 +1,6 @@
 import requests
 
-base_url = 'http://127.0.0.1:5000'
+base_url = 'http://127.0.0.1:5000' # I used the loopback address instead of localhost since I am getting a 403 status code
 
 # GET requests
 def get_api_data(endpoint, params = {}):
